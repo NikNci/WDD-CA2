@@ -1,0 +1,14 @@
+body{
+	background-color:#e1ffe; /* universal bg color, do not change-NM(Nikolas Misins)*/
+}
+
+h1{
+	font-family: "Noto Sans";
+	color:#308bff;
+	font-weight:bold; /*Universal heading style, do not change-NM*/
+}
+
+p{
+	font-family: "Radio Canada";
+	font-weight: light; /*universal paragraph style-NM*/
+}
