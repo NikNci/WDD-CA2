@@ -1,5 +1,5 @@
 body{
-	background-color:#e1ffe; /* universal bg color, do not change-NM(Nikolas Misins)*/
+	background-color:#e1fffe; /* universal bg color, do not change-NM(Nikolas Misins)*/
 }
 
 h1{
@@ -9,6 +9,12 @@ h1{
 }
 
 p{
-	font-family: "Radio Canada";
-	font-weight: light; /*universal paragraph style-NM*/
+	font-family:"Radio Canada";
+	font-weight:300; /*universal paragraph style-NM*/
+}
+
+.box{/*adding the proper styled border, had to add a capitalised C for custom because bootstrap has a class like this-NM*/
+	border:black solid 3px;
+	border-radius:5px;
+	background-color:white;
 }
