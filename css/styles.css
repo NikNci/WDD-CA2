@@ -18,3 +18,8 @@ p{
 	border-radius:5px;
 	background-color:white;
 }
+
+label{
+	font-family:"Radio Canada"; /*for form-NM*/
+	font-weight:300;
+}
