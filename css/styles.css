@@ -28,6 +28,6 @@ label{
 	font-family:"Radio Canada"; /*font for form-NM*/
 	font-weight:300;
 }
-td,tr{
-	text-align:center;
+td,tr form{
+	text-align:center; /* makes the form in the newsletter sign-up centered -NM*/
 }
