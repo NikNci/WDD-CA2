@@ -10,16 +10,24 @@ h1{
 
 p{
 	font-family:"Radio Canada";
-	font-weight:300; /*universal paragraph style-NM*/
+	font-weight:300; /*universal paragraph style, do not change-NM*/
 }
 
-.box{/*adding the proper styled border, had to add a capitalised C for custom because bootstrap has a class like this-NM*/
-	border:black solid 3px;
+p.bold {
+	font-weight:bold; /*a class for p called bold that will...make it bold. I mainly made it for use in the form-NM*/
+	font-size:80%;
+}
+
+.box{
+	border:black solid 3px; /*adding the proper styled border, had to add a capitalised C for custom because bootstrap has a class like this-NM*/
 	border-radius:5px;
 	background-color:white;
 }
 
 label{
-	font-family:"Radio Canada"; /*for form-NM*/
+	font-family:"Radio Canada"; /*font for form-NM*/
 	font-weight:300;
+}
+td,tr{
+	text-align:center;
 }
