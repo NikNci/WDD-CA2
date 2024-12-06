@@ -28,6 +28,18 @@ label{
 	font-family:"Radio Canada"; /*font for form-NM*/
 	font-weight:300;
 }
+
+label.check{
+	margin-left:10px; /*exists just to style the checkbox area in the form- NM*/
+}
+
 td,tr form{
 	text-align:center; /* makes the form in the newsletter sign-up centered -NM*/
+}
+
+label#emailRemind ,label#nameRemind{
+	color:red;
+	font-size:50%;
+	position:relative;
+	top:5px;
 }
