@@ -28,9 +28,25 @@ label{
 	font-family:"Radio Canada"; /*font for form-NM*/
 	font-weight:300;
 }
+
+label.check{
+	margin-left:10px; /*exists just to style the checkbox area in the form- NM*/
+}
+
 td,tr form{
 	text-align:center; /* makes the form in the newsletter sign-up centered -NM*/
 }
+
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
 
 .grid-container {
     display: grid;
@@ -85,3 +101,11 @@ td,tr form{
 
 
 
+=======
+label#emailRemind ,label#nameRemind{
+	color:red;
+	font-size:50%;
+	position:relative;
+	top:5px;
+}
+>>>>>>> aa0eb1381028deaee881920fa42e7d97e3f35a2b
