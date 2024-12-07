@@ -93,3 +93,9 @@ label#nameRemind {
   position: relative;
   top: 5px;
 }
+
+
+hr{
+	background-color:black;
+	margin-top:0; /*NM*/
+}
