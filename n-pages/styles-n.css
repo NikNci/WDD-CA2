@@ -12,6 +12,10 @@ p{
 	font-family: "Radio Canada";
 	font-weight: light; /*universal paragraph style-NM*/
 }
+hr{
+	background-color:black;
+	margin-top:0; /*NM*/
+}
 
 .about-1{
 	width:90%;
@@ -76,4 +80,54 @@ p{
 .about-item i{
 	font-size: 43px;
 	margin: 0;
+}
+
+
+
+.container-2{
+	width:100%;
+}
+.news-section{
+	width:85%;
+	margin:20px auto;
+}
+.news-section .title{
+	width:60%;
+	text-align: center;
+	margin:auto;
+}
+.news-section .title h2{
+	font-size : 40px;
+	color:#308bff;
+	margin-top: 50px;
+}
+.news-section .title p{
+	font-size: 18px;
+	color:#666;
+	margin-top: 20px;
+}
+.cards{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	margin:25px auto;
+}
+.cards  .card{
+	width:100%;
+	height: auto;
+}
+.content{
+	padding:15px 20px;
+}
+.content h4{
+	font-size: 24px;
+	color:#308bff;
+	font-weight: 500;
+}
+.content p{
+	color:#666;
+	font-size: 15px;
+}
+.card .posted-date p{
+	color:#308bff;
 }
