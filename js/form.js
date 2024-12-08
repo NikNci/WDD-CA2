@@ -12,14 +12,14 @@ function nameListener() {
 	}
 }
 
-function emailListener(){ //validates that the email adress is inputted correctly and reminds the user if the email is not inputted correctly, will also play a part in enabling the button
+function emailListener(){ //validates that the email adress is inputted correctly and reminds the user if the email is not inputted correctly, will also play a part in enabling the button. Required atrributs here is that it is over 9 characters, and contains an "@" and a "." somehwere in the field
 	if (	(document.getElementById("userEmail").value.length > 9) && (document.getElementById("userEmail").value.includes("@")) && (document.getElementById("userEmail").value.includes("."))		){
 		document.getElementById("emailRemind").innerHTML = "";
 		emailComplete = true;
 		enableButton()
 	}
 	else{
-		document.getElementById("emailRemind").innerHTML = "*please input a valid email address";
+		document.getElementById("emailRemind").innerHTML = "*please input a valid email address"; //DOM manipulation-displays message when the mail is not correctly inputted
 		emailComplete = false;
 		enableButton()
 	}
@@ -27,7 +27,7 @@ function emailListener(){ //validates that the email adress is inputted correctl
 
 
 
-function enableButton(){ //the function enables or disables the submit button based on the inputs the user has given
+function enableButton(){ //the function enables or disables the submit button based on the inputs the user has given, DOM manipulation
 	if (	(nameComplete) && (emailComplete)	&&	(document.getElementById("weeklyUpdates").checked || document.getElementById("genNewsletter").checked)		){
 		document.getElementById("submitBTN").disabled = false;
 	}else{

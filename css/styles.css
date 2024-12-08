@@ -86,7 +86,7 @@ tr form {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-label#emailRemind,
+label#emailRemind, /*NM*/
 label#nameRemind {
   color: red;
   font-size: 50%;
@@ -97,7 +97,11 @@ label#nameRemind {
 
 hr{
 	background-color:black;
-	margin-top:0; /*NM*/
+	margin-top:0; /*NM, makes the navbar look better by hacing this styled header below it*/
+}
+
+a>p{
+	text-decoration:underline; /*NM, underlined links in the home page */
 }
 
 /*All content below is CSS by Nathan  */
